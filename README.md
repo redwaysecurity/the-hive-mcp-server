@@ -1,10 +1,6 @@
 # TheHive MCP Server
 
-A Model Context Protocol (MCP) server implementation for TheHive, enabling seamless integration with MCP clients. This project provides a standardized way to interact with TheHive's security incident response platform through the Model Context Protocol.
-
-## About
-
-This project implements a [Model Context Protocol](https://modelcontextprotocol.io/introduction) server that wraps TheHive's REST API, allowing MCP clients to interact with TheHive in a standardized way. It uses the official thehive4py client library to ensure compatibility and maintainability.
+A [Model Context Protocol](https://modelcontextprotocol.io/introduction) (MCP) server implementation for TheHive, enabling seamless integration with MCP clients. This project provides a standardized way to interact with TheHive's security incident response platform through the Model Context Protocol.
 
 ### Implemented MCP Tools
 
@@ -148,16 +144,6 @@ Replace `/path/to/mcp` with the actual path to the root directory where you've c
 
 You can also run the server manually:
 
-```bash
-# Install dependencies
-pip install .
-
-# Set environment variables
-export HIVE_URL="http://localhost:9000"
-export HIVE_API_KEY="your-api-key"
-
-# Run the server
-python -m thehive_mcp
 ```bash
 # Install dependencies
 pip install .
